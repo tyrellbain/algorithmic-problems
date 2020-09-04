@@ -1,0 +1,19 @@
+{
+  "name": "algorithmic-problems",
+  "version": "1.0.0",
+  "description": "A collection of leetcode questions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyrellbain/algorithmic-problems.git"
+  },
+  "author": "Tyrell Bain",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha question/**/test.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  }
+}
