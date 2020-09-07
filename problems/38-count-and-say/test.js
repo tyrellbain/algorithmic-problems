@@ -1,5 +1,5 @@
 var assert = require("assert");
-const countAndSay = require("./solution-3-while-and-for/index");
+const countAndSay = require("./solution-3-while-and-for/index.js");
 describe("Count And Say", function () {
   it("given 3 it function should return '21'", () => {
     assert.equal(countAndSay(3), "21");
