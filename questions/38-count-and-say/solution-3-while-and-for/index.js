@@ -3,7 +3,7 @@
  * @return {string}
  */
 
-export default countAndSay = (n) => {
+module.exports = countAndSay = (n) => {
   let seq = "1";
   while (--n) {
     let freq = 1,

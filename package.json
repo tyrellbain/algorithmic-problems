@@ -9,11 +9,12 @@
   "author": "Tyrell Bain",
   "license": "ISC",
   "scripts": {
-    "test": "mocha question/**/test.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "generate-read-me": "node scripts/read-me-generator.js",
+    "pre-commit": "npm run generate-read-me"
   },
   "dependencies": {
-    "chai": "^4.2.0",
+    "chalk": "^4.1.0",
     "mocha": "^8.1.1"
   }
 }

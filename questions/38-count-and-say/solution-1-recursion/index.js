@@ -3,13 +3,13 @@
  * @return {string}
  */
 
-export default countAndSay = function(n) {
+export default countAndSay = function (n) {
   let startTerm = "1";
   if (n === 1) return startTerm;
   return generateSequence(n, startTerm, 2);
 };
 
-const generateSequence = function(n, sequence, currTerm) {
+const generateSequence = function (n, sequence, currTerm) {
   let seq = "";
   let freq = 1;
   for (let i = 0; i < sequence.length; i++) {
