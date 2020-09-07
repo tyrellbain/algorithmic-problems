@@ -11,7 +11,7 @@
   "scripts": {
     "start": "node index.js",
     "generate-read-me": "node scripts/read-me-generator.js",
-    "pre-commit": "npm run generate-read-me"
+    "precommit": "npm run generate-read-me"
   },
   "dependencies": {
     "chalk": "^4.1.0",
