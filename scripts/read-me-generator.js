@@ -15,7 +15,7 @@ fs.opendir(`./problems/`, {}, async (err, dir) => {
           return wordArr.join("");
         })
         .join(" ");
-      content += `\n ## ${number}. ${title}`;
+      content += `\n * **${number}. ${title}**`;
     }
   }
   fs.writeFileSync("README.md", content);

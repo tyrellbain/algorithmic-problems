@@ -15,5 +15,5 @@ Select problem # from the table of below
 $ git run start PROBLEM-NUMBER
 ```
 ## Table of Contents
- ## 38. Count And Say
- ## 1544. Make The String Great
+ * **38. Count And Say**
+ * **1544. Make The String Great**
