@@ -3,7 +3,7 @@
  * @return {string}
  */
 
-module.exports = countAndSay = (n) => {
+module.exports = (n) => {
   let seq = "1";
   while (--n) {
     let freq = 1,

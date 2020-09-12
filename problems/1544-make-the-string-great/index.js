@@ -5,7 +5,7 @@
 
 const CHAR_CODE_CASE_DIFF = 32;
 
-module.exports = makeGood = function (s) {
+module.exports = (s) => {
   if (s.lenght < 1 || s.length > 100) return;
 
   const checkArr = (str) => {
